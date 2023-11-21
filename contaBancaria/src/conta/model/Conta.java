@@ -1,5 +1,7 @@
 package conta.model;
 
+import conta.util.Cores;
+
 public class Conta {
   
   private int numero;
@@ -86,7 +88,7 @@ public class Conta {
 		break;
 		}
 		
-		System.out.println("\n\n***********************************************************");
+		System.out.println(Cores.TEXT_YELLOW + "\n\n***********************************************************");
 		System.out.println("Dados da Conta:");
 		System.out.println("***********************************************************");
 		System.out.println("Numero da Conta: " + this.numero);
