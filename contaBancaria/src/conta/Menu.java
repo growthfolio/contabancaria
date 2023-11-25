@@ -7,7 +7,11 @@ import conta.model.ContaPoupanca;
 import conta.util.Cores;
 public class Menu {
 
+	public static Scanner leia = new Scanner(System.in);
+	
 	public static void main(String[] args) {
+
+		int option;
 		
 		// Teste da Classe Conta Corrente
 		ContaCorrente cc1 = new ContaCorrente(1, 123, 1, "José da Silva", 0.0f, 1000.0f);
@@ -24,10 +28,6 @@ public class Menu {
 		cp1.visualizar();
 		cp1.depositar(5000.0f);
 		cp1.visualizar();
-		
-		Scanner leia = new Scanner(System.in);
-		
-		int option;
 		
 		while (true) {
 			
