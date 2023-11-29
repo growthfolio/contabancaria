@@ -58,6 +58,8 @@ private int numero;
 		this.saldo = saldo;
 	}
 
+	
+	// Metodos personalizados
 	public boolean sacar(float valor) { 
 		
 		if(this.getSaldo() < valor) {
